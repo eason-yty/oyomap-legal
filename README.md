@@ -13,9 +13,11 @@ Public static pages for Oyomap, hosted with GitHub Pages.
 
 The site is plain HTML/CSS and deploys from the root of `main`. It has no build step, JavaScript, cookies, analytics, or secrets.
 
-Initial review URL: `https://eason-yty.github.io/oyomap-legal/`
+Production URL: `https://www.oyomap.com/`
 
-Do not add a `CNAME` file until DNS is configured; otherwise the working `github.io` review URL can redirect to a broken domain.
+Fallback Pages URL: `https://eason-yty.github.io/oyomap-legal/`
+
+The `CNAME` file and Cloudflare DNS records target `www.oyomap.com`. The apex domain uses GitHub Pages' four documented A records, and `www` is a DNS-only CNAME to `eason-yty.github.io`. Existing Cloudflare Email Routing MX, SPF, and DKIM records must remain untouched.
 
 ## Launch checklist
 
