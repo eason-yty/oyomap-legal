@@ -15,7 +15,7 @@ The site is plain HTML/CSS and deploys from the root of `main`. It has no build 
 
 Production URL: `https://www.oyomap.com/`
 
-Fallback Pages URL: `https://eason-yty.github.io/oyomap-legal/`
+Fallback Pages URL: `https://eason-yty.github.io/oyomap-site/`
 
 The `CNAME` file and Cloudflare DNS records target `www.oyomap.com`. The apex domain uses GitHub Pages' four documented A records, and `www` is a DNS-only CNAME to `eason-yty.github.io`. Existing Cloudflare Email Routing MX, SPF, and DKIM records must remain untouched.
 
