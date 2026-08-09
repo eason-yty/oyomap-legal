@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eason-yty.github.io/oyomap-legal/sitemap.xml
